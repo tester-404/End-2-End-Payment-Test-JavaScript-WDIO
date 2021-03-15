@@ -1,0 +1,27 @@
+{
+  "name": "ttt1",
+  "version": "1.0.0",
+  "description": "auto tests folder 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "404",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/register": "^7.13.0",
+    "@wdio/cli": "^7.0.8",
+    "@wdio/local-runner": "^7.0.8",
+    "@wdio/mocha-framework": "^7.0.7",
+    "@wdio/spec-reporter": "^7.0.7",
+    "@wdio/sync": "^7.0.8",
+    "chromedriver": "^88.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
